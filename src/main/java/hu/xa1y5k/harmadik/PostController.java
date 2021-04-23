@@ -15,7 +15,7 @@ public class PostController
 
 
         if (text != null) {
-            fg.setBemenet(text);
+            fg.setContent(text);
         }
 
         fg.forditas();

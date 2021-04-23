@@ -2,31 +2,31 @@ package hu.xa1y5k.harmadik;
 
 public class ForditoGep {
 
- private String bemenet;
+ private String content;
 
 
- public ForditoGep(String bemenet)
+ public ForditoGep(String content)
  {
-    this.bemenet = bemenet;
+    this.content = content;
  }
 
  public void forditas()
  {
     StringBuilder sb = new StringBuilder();
-    sb.append(this.bemenet);
+    sb.append(this.content);
 
-    this.bemenet=sb.reverse().toString();
+    this.content=sb.reverse().toString();
 
  }
- public String getBemenet()
+ public String getContent()
  {
-    return this.bemenet;
+    return this.content;
  }
 
 
- public void setBemenet(String bemenet)
+ public void setContent(String content)
  {
-     this.bemenet = bemenet;
+     this.content = content;
  }
 
 
